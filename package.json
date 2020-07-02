@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon",
+    "test": "jest"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "collections": "^5.1.11",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "js-array-collections": "1.4.4",
+    "lodash": "^4.17.15",
+    "uuidv4": "^6.0.7"
+  },
+  "devDependencies": {
+    "jest": "^25.2.6",
+    "nodemon": "^2.0.2",
+    "supertest": "^4.0.2"
+  }
+}
